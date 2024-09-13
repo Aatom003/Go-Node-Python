@@ -139,16 +139,6 @@ Requests/sec:  91141.77
 Transfer/sec:     11.82MB
 ```
 
-## Benchmarking with `ab`
-
-You can also use `ab` (ApacheBench) to benchmark the servers. For example, to send 10,000 requests with 20 concurrent connections:
-
-```bash
-ab -n 10000 -c 20 http://localhost:8080/
-```
-
-This will output similar statistics, including requests per second and transfer rate.
-
 ## Results
 
 After benchmarking, you can compare the following metrics:
